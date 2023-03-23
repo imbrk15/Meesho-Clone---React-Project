@@ -1,0 +1,51 @@
+.me-2 {
+    width: 250px;
+}
+
+.modal {
+    display: flex;
+    justify-content: space-around;
+}
+
+.price-section {
+    margin-top: 10vh;
+    border: 0.001rem grey solid;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.modal-img {
+    margin-left: 10vw;
+}
+
+.modal-img img {
+    height: 400px;
+    width: 350px;
+    margin-top: 20vh;
+}
+
+.select-size {
+    margin-top: 3vh;
+    border: 0.001rem grey solid;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.select-size .size {
+    width: 100px;
+    border: 1px solid rgb(245, 11, 152);
+    text-align: center;
+    background-color: rgb(212, 165, 206);
+    color: rgb(232, 11, 162);
+    font-weight: bolder;
+    border-radius: 15px;
+    height: 30px;
+    font-size: large;
+}
+
+.details {
+    margin-top: 3vh;
+    border: 0.001rem grey solid;
+    border-radius: 15px;
+    padding: 20px;
+}

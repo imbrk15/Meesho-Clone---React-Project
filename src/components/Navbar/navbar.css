@@ -1,0 +1,22 @@
+.inputDiv {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    width: 40%;
+    border: 1px solid grey;
+}
+
+.searchicon {
+    width: 28px;
+    height: 28px;
+    margin-left: 10px;
+}
+
+#input {
+    font-size: 15px;
+    margin-left: 10px;
+    background-color: transparent;
+    border-color: transparent;
+    outline: 0;
+    width: 90%;
+}
