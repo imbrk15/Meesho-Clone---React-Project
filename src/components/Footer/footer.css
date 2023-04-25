@@ -1,0 +1,30 @@
+.main {
+    background-color: rgb(241, 235, 235);
+    height: 100%;
+}
+
+.container_footer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.image_store img {
+    width: 205px;
+    height: 51px;
+    margin: 10px;
+}
+
+.child_container {
+    margin-top: 3%;
+}
+
+.logo_media img {
+    margin: 0 5px;
+
+}
+
+.accordian {
+    margin-bottom: 20px;
+    margin: 0 30px;
+    padding-bottom: 5%;
+}
