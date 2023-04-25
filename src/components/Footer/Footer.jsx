@@ -14,8 +14,9 @@ export default function Footer() {
                         Cash on Delivery | Free Delivery
                     </p>
                     <div className='image_store'>
-                        <img className='appstore' src={require("./appstore.png").default} alt="appstore" />
-                        <img className='playstore' src={require("./playstore.png").default} alt="playstore" />
+                        <a target='/blank' href="https://play.google.com/store/apps/details?id=com.meesho.supply&pid=pow_website&c=pow&pow_click_page_type=HP&pow_distinct_id=185f39564e219f-0e66e6c01b8267-26021051-15f900-185f39564e396a"><img className='appstore' src={require("./appstore.png").default} alt="appstore" /></a>
+                        <a target='/blank' href="https://apps.apple.com/us/app/meesho/id1457958492"><img className='playstore' src={require("./playstore.png").default} alt="playstore" /></a>
+
                     </div>
                 </div>
                 <div className='child_container' style={{ fontSize: 18 }}>
@@ -31,11 +32,12 @@ export default function Footer() {
                 <div className='child_container'>
                     <p style={{ fontSize: 20 }}><b>Reach out to us</b></p>
                     <div className='logo_media'>
-                        <img src={require("./logo/facebook.png").default} alt="facebook" />
-                        <img src={require("./logo/instagram.png").default} alt="instagram" />
-                        <img src={require("./logo/youtube.png").default} alt="youtube" />
-                        <img src={require("./logo/linkedin.png").default} alt="linkedlin" />
-                        <img src={require("./logo/twitter.png").default} alt="twitter" />
+                        <a target='/blank' href="https://www.facebook.com/meeshosupply"><img src={require("./logo/facebook.png").default} alt="facebook" /></a>
+                        <a target='/blank' href="https://www.instagram.com/meeshoapp/"><img src={require("./logo/instagram.png").default} alt="instagram" /></a>
+                        <a target='/blank' href="https://www.youtube.com/channel/UCaGHIRKYUYlaI_ZAt2hxpjw"><img src={require("./logo/youtube.png").default} alt="youtube" /></a>
+                        <a target='/blank' href="https://www.linkedin.com/company/meesho/"><img src={require("./logo/linkedin.png").default} alt="linkedlin" /></a>
+                        <a target='/blank' href="https://twitter.com/Meesho_Official/"><img src={require("./logo/twitter.png").default} alt="twitter" /></a>
+
                     </div>
                 </div>
                 <div className='child_container'>
